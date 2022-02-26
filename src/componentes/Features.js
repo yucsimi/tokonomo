@@ -16,7 +16,7 @@ const Features = () => {
 
         <div className='features'>
 
-            <h4 className='features-title'>Features that make the fundraising process
+            <h4 className='features-title pb-5 text-center '>Features that make the fundraising process
                 simple as 1-2-3</h4>
 
 
@@ -27,16 +27,16 @@ const Features = () => {
 
 
 
-                <div className='features-division col-12 col-md-6 col-sm-12'>
+                <div className='features-division col-12 col-md-6 col-sm-12 '>
 
-                    <h5 className='cartas-titulo'>For Investors:</h5>
+                    <h5 className='cartas-titulo pb-2'>For Investors:</h5>
 
                     <div className='features-cartas'>
 
                         <div className='carta-dasboard '>
 
-                            <span className='imagen-dasboard'><img alt='dasboard' src={dasboard} /></span>
-                            <h6 className='cartas-title'>Portfolio Tracking</h6>
+                            <span className='imagen-dasboard '><img alt='dasboard' src={dasboard} /></span>
+                            <h6 className='cartas-title pt-3'>Portfolio Tracking</h6>
                             <p className='cartas-info'>Track changes in your assets from investments made
                             </p>
 
@@ -61,7 +61,7 @@ const Features = () => {
 
                 <div className='features-division col-12 col-md-6 col-sm-12  '>
 
-                    <h5 className='cartas-titulo'>For Teams:</h5>
+                    <h5 className='cartas-titulo pb-2'>For Teams:</h5>
 
                     <div className='features-cartas'>
 
@@ -69,7 +69,7 @@ const Features = () => {
                         <div className='carta-composition  '>
 
                             <span className='imagen-composition2'><img alt='composition2' src={composition2} /></span>
-                            <h6 className='cartas-title1'>KYC</h6>
+                            <h6 className='cartas-title1 pt-2'>KYC</h6>
                             <p className='cartas-info'>Optional KYC and verification for projects</p>
 
 
@@ -78,7 +78,7 @@ const Features = () => {
                         <div className='carta-composition '>
 
                             <span className='imagen-money'><img alt='money' src={money} /></span>
-                            <h6 className='cartas-title1'>Raise funds</h6>
+                            <h6 className='cartas-title1 pt-2'>Raise funds</h6>
                             <p className='cartas-info'>Create a token IDO with just a few clicks</p>
 
 
