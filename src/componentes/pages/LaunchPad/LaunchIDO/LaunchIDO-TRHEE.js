@@ -1,6 +1,6 @@
 import React from 'react';
 
-import '../../../../styles\/LaunchIDO-TREE.css'
+import '../../../../styles/LaunchIDO-TREE.css'
 const LauncghIDOThree = () => {
     return (
         <div>

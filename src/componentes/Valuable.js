@@ -13,11 +13,11 @@ const Valuable = () => {
         <div className='valuable '>
 
 
-            <h4 className='valuable-title'> Be a valuable part of  <span><img src={explosion} /></span> the DeFi economy  <span><img src={explosion} /></span></h4>
+            <h4 className='valuable-title'> Be a valuable part of  <span><img alt='explosion' src={explosion} /></span> the DeFi economy  <span><img alt='explosion' src={explosion} /></span></h4>
             <p className='boton-getStarted2'>Get started</p>
 
 
-            <span className='valuable-imagen'><img src={security} /></span>
+            <span className='valuable-imagen'><img alt='security' src={security} /></span>
         </div>
     );
 }

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 
-import { Collapse } from "reactstrap"
+/* import { Collapse } from "reactstrap" */
 import '../../styles/sidebar.css'
 
 
@@ -24,13 +24,10 @@ import SidebarItem from './SidebarItem';
 
 const Sidebar = () => {
 
-    const [activeCollapse, setActiveCollapse] = useState(true)
     const [activeItem, setActiveItem] = useState("")
 
 
-    const cambiarCollapse = () => {
-        setActiveCollapse(!activeCollapse)
-    }
+
 
 
     const options = [

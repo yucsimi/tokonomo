@@ -29,11 +29,11 @@ function SidebarItem({ name, icon, dropdownOptions, setActiveItem, activeItem })
 
     return (
         <div>
-            <p onClick={() => { handleClickItem(false, name) }} className={`sidebar-item ${activeItem === name && "sidebar-item-active"}`}><span><img src={icon} /></span> {name}  {dropdownOptions && <span className='icono '><img src={icono} /></span>}  </p>
+            <p onClick={() => { handleClickItem(false, name) }} className={`sidebar-item ${activeItem === name && "sidebar-item-active"}`}><span><img alt='icon' src={icon} /></span> {name}  {dropdownOptions && <span className='icono '><img alt='icono' src={icono} /></span>}  </p>
             {dropdownOptions &&
                 <Collapse isOpen={activeCollapse}>
 
-                    {dropdownOptions.map(element => <p onClick={() => { handleClickItem(true, element.name) }} className={`sidebar-item-collapse  ${activeItem === element.name && "sidebar-item-active"}`}><span><img src={element.icon} /></span> {element.name}   </p>)}
+                    {dropdownOptions.map(element => <p onClick={() => { handleClickItem(true, element.name) }} className={`sidebar-item-collapse  ${activeItem === element.name && "sidebar-item-active"}`}><span><img alt='ico' src={element.icon} /></span> {element.name}   </p>)}
 
                 </Collapse>
             }

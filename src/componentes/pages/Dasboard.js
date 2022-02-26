@@ -15,7 +15,7 @@ import frameDos from '../../assets/frameDos.png'
 import invesment from '../../assets/investments.png'
 import grafica from '../../assets/grafica.png'
 import coheteAzul from '../../assets/CoheteAzul.png'
-import frametres from '../../assets/frametres.png'
+/* import frametres from '../../assets/frametres.png' */
 import groop48 from '../../assets/Group48.png'
 import groop6 from '../../assets/Group6.png'
 import groop09 from '../../assets/Grou09.png'
@@ -27,28 +27,28 @@ const Dasboard = () => {
 
 
         <div className='Dasboard '>
-            <p className='dasboard-title'><span><img src={dasboard} /></span>Dashboard</p>
+            <p className='dasboard-title'><span><img alt='dasboard' src={dasboard} /></span>Dashboard</p>
 
             <div className='d-flex one-Cart '>
 
 
                 <div className=' carta'>
 
-                    <p className='cart-subtitle border'><span className='mx-2'><img src={bolsa} /></span> Announcements  <span className='imagen-flecha'><img src={flechaizquierda} /></span>  <span className='mx-2'><img src={flechaderecha} /></span> </p>
+                    <p className='cart-subtitle border'><span className='mx-2'><img alt='bolsa' src={bolsa} /></span> Announcements  <span className='imagen-flecha'><img alt='flechaizquierda' src={flechaizquierda} /></span>  <span className='mx-2'><img alt='derecha' src={flechaderecha} /></span> </p>
                     <span><img src={listing} /></span>
 
                 </div>
                 <div>
 
-                    <p className='carta-subtitulo border'><span className='mx-2'><img src={dinero} /></span> Promoted  <span className='segundaImagenflecha'><img src={flechaizquierda} /></span>  <span className='mx-2'><img src={flechaderecha} /></span>  </p>
+                    <p className='carta-subtitulo border'><span className='mx-2'><img alt='dinero' src={dinero} /></span> Promoted  <span className='segundaImagenflecha'><img alt='flecha' src={flechaizquierda} /></span>  <span className='mx-2'><img alt='fkechaderecha' src={flechaderecha} /></span>  </p>
 
                     <div className='d-flex '>
 
                         <div>
 
 
-                            <span><img src={frame} /></span>
-                            <span><img src={frameDos} /></span>
+                            <span><img alt='frame' src={frame} /></span>
+                            <span><img alt='framedos' src={frameDos} /></span>
                         </div>
 
 
@@ -71,7 +71,7 @@ const Dasboard = () => {
                 <div className='d-block  row'>
 
                     <div className='col-12 col-md-10'>
-                        <p className='carta-subtitulo'><span className='mx-2'><img src={invesment} /></span>Your Investments</p>
+                        <p className='carta-subtitulo'><span className='mx-2'><img alt='invesment' src={invesment} /></span>Your Investments</p>
 
                         <div className='cartas-abajo '>
 
@@ -83,7 +83,7 @@ const Dasboard = () => {
                             <p className='balace'>BALANCE IN USD</p>
                             <p className='valores'>$ 776.43</p>
                         </div>
-                        <span className='grafica'><img src={grafica} /></span>
+                        <span className='grafica'><img alt='grafica' src={grafica} /></span>
 
 
 
@@ -94,22 +94,22 @@ const Dasboard = () => {
 
 
                 <div className=' row'>
-                    <p className='carta-subtitulo'><span className='mx-2'><img src={coheteAzul} /></span>Your starter IDOs <span className='segundacartaFlecha'><img src={flechaizquierda} /></span>  <span className='mx-2'><img src={flechaderecha} /></span> </p>
+                    <p className='carta-subtitulo'><span className='mx-2'><img alt='coheteazul' src={coheteAzul} /></span>Your starter IDOs <span className='segundacartaFlecha'><img src={flechaizquierda} /></span>  <span className='mx-2'><img src={flechaderecha} /></span> </p>
                     <div className='col-12 col-md-8'>
 
 
                         <div className=' cart-PartI'>
 
-                            <span className='mx-2'><img src={groop48} /></span>
+                            <span className='mx-2'><img alt='groop48' src={groop48} /></span>
 
                             <div className='d-flex PartI-adentro'>
 
-                                <span className=''><img src={groop6} /></span>
-                                <span className='mx-2'><img src={groop09} /></span>
+                                <span className=''><img alt='groop6' src={groop6} /></span>
+                                <span className='mx-2'><img alt='gropp09' src={groop09} /></span>
 
 
                                 <div className='cart-IpartBoton'>
-                                    <span className='elipse '><img src={elipse} /></span>
+                                    <span className='elipse '><img alt='elipse' src={elipse} /></span>
                                     <p className='upcomin my-3'>Upcoming</p>
 
                                 </div>

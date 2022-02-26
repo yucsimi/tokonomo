@@ -1,13 +1,13 @@
 import React from 'react';
-import LaunchIDOne from './LaunchIDO-ONE';
+/* import LaunchIDOne from './LaunchIDO-ONE'; */
 import '../../../../styles/launchIDO-ONE.css'
 
 
 import arrow from '../../../../assets/Arrow.png'
 import right from '../../../../assets/Right.png'
 import comparison from '../../../../assets/comparison.png'
-import LaunchIDOTwo from './LaunchIDO-Two';
-import LauncghIDOThree from './LaunchIDO-TRHEE';
+/* import LaunchIDOTwo from './LaunchIDO-Two';
+import LauncghIDOThree from './LaunchIDO-TRHEE'; */
 import LaunchIDOfor from './LaunchIDO-For';
 
 
@@ -15,7 +15,7 @@ const LaunchIDO = () => {
     return (
 
         <div className='launchido m-auto'>
-            <p className='titulo-launchIDO'> <span className='mx-3 imagen'><img src={comparison} /></span>Launch IDO</p>
+            <p className='titulo-launchIDO'> <span className='mx-3 imagen'><img alt='comparison' src={comparison} /></span>Launch IDO</p>
 
             <div className='col-12 col-md-12 d-flex contenedor '>
                 <div className='d-block col-2  box-information '>
@@ -90,9 +90,9 @@ const LaunchIDO = () => {
 
 
             <div className='boton d-flex  '>
-                <p className='boton-1 mx-2' ><span> <img src={right} /></span>Back </p>
+                <p className='boton-1 mx-2' ><span> <img alt='right' src={right} /></span>Back </p>
 
-                <p className='boton-1 border mx-2'>Next <span> <img src={arrow} /></span></p>
+                <p className='boton-1 border mx-2'>Next <span> <img alt='aroow' src={arrow} /></span></p>
 
 
             </div>

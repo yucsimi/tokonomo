@@ -12,7 +12,7 @@ const Navbar = () => {
 
             <div className='navbar-navegador '>
 
-                <div className='navbar-logo mx-3'><span><img src={tokonomo} /> </span></div>
+                <div className='navbar-logo mx-3'><span><img alt='tokonomo' src={tokonomo} /> </span></div>
 
                 <div className='navbar-botones '>
                     <p className='boton-tokensList d-none d-md-flex'>Tokens List</p>

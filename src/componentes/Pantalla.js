@@ -11,7 +11,7 @@ const Pantalla = () => {
         <div className='pantalla row '>
 
 
-            <span className='col-12 col-md-12 m-0 pantalla-imagen' ><img src={macbook} /></span>
+            <span className='col-12 col-md-12 m-0 pantalla-imagen' ><img alt='macbook' src={macbook} /></span>
         </div>
 
 

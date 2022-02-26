@@ -23,10 +23,10 @@ const Footer = () => {
                 <span className=' mx-4'><img src={tokonomo} /></span>
 
                 <div className=''>
-                    <span className='mx-3'><img src={twitter} /></span>
-                    <span className='mx-3'><img src={telegramm} /></span>
-                    <span className='mx-3'><img src={facebook} /></span>
-                    <span className='mx-3'><img src={discord} /></span>
+                    <span className='mx-3'><img alt='twitter' src={twitter} /></span>
+                    <span className='mx-3'><img alt='telegramm' src={telegramm} /></span>
+                    <span className='mx-3'><img alt='facebook' src={facebook} /></span>
+                    <span className='mx-3'><img alt='discord' src={discord} /></span>
 
 
                 </div>

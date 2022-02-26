@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-import features from '../styles/features.css'
+/* import features from '../styles/features.css' */
 
 import dasboard from '../assets/dashboard.png'
 import composition from '../assets/Composition.png'
@@ -35,7 +35,7 @@ const Features = () => {
 
                         <div className='carta-dasboard '>
 
-                            <span className='imagen-dasboard'><img src={dasboard} /></span>
+                            <span className='imagen-dasboard'><img alt='dasboard' src={dasboard} /></span>
                             <h6 className='cartas-title'>Portfolio Tracking</h6>
                             <p className='cartas-info'>Track changes in your assets from investments made
                             </p>
@@ -44,7 +44,7 @@ const Features = () => {
                         </div>
                         <div className='carta-composition  '>
 
-                            <span className='imagen-compositionn'><img src={composition} /></span>
+                            <span className='imagen-compositionn'><img alt='composition' src={composition} /></span>
                             <h6 className='cartas-title1'>Automatic projects scanner</h6>
                             <p className='cartas-info'>Estimate the risk
                                 of project's fraud based on mathematical factors before investing in</p>
@@ -68,7 +68,7 @@ const Features = () => {
 
                         <div className='carta-composition  '>
 
-                            <span className='imagen-composition2'><img src={composition2} /></span>
+                            <span className='imagen-composition2'><img alt='composition2' src={composition2} /></span>
                             <h6 className='cartas-title1'>KYC</h6>
                             <p className='cartas-info'>Optional KYC and verification for projects</p>
 
@@ -77,7 +77,7 @@ const Features = () => {
 
                         <div className='carta-composition '>
 
-                            <span className='imagen-money'><img src={money} /></span>
+                            <span className='imagen-money'><img alt='money' src={money} /></span>
                             <h6 className='cartas-title1'>Raise funds</h6>
                             <p className='cartas-info'>Create a token IDO with just a few clicks</p>
 
@@ -86,7 +86,7 @@ const Features = () => {
 
                         <div className='carta-composition '>
 
-                            <span className='imagen-segurity'><img src={segurity} /></span>
+                            <span className='imagen-segurity'><img alt='segurity' src={segurity} /></span>
                             <h6 className='cartas-title1'>Locking</h6>
                             <p className='cartas-info'>Lock your liqudity or your tokens to give your investors confidence in your project</p>
 
