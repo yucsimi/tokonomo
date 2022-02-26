@@ -1,0 +1,54 @@
+
+.header{
+    min-height: 85vh;
+}
+.header-principal{
+margin: 0 auto;
+margin-top: 145px;
+}
+
+.header-title{
+    font-family: Neue Machina;
+    font-weight: 700;
+    font-size: 54px;
+    text-align: center;
+    color: #363642;
+    line-height: 150%;
+
+}
+
+
+.header-info{
+
+color: #363642;
+font-family: Neue Machina;
+font-weight: normal;
+font-size: 22px;
+line-height: 180%;
+text-align: center;
+
+}
+
+.header-botones{
+display: flex;
+justify-content: center;
+
+}
+
+
+
+.boton-learnMore{
+
+    font-family: Neue Machina;
+    font-weight: 700;
+   font-size: 15px;
+    width: 182px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: #C1D45D;
+    border: 1.5px solid #C1D45D;
+    border-radius: 12px;
+}

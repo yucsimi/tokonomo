@@ -1,0 +1,113 @@
+.projects{
+margin-top: 100px;
+height: 110vh;
+
+
+}
+
+.projects-title{
+font-family: Neue Machina;
+font-weight: bold;
+font-size: 40px;
+line-height: 150%;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+padding: 0;
+
+}
+
+
+
+.projects-cartas{
+display: flex;
+justify-content: center;
+
+}
+
+
+.imagen-coctel{
+display: flex;
+justify-content: center;
+background: radial-gradient(rgba(55, 255, 171, 0.1) 40%,white);
+
+
+}
+
+.imagen-coctel img{
+    width: 90%;
+}
+
+
+.imagen-grafico{
+    display: flex;
+    justify-content: center;
+    background: radial-gradient(rgba(55, 255, 171, 0.1) 40%,white);
+
+}
+.imagen-grafico img{
+
+width: 90%;
+}
+
+.cartas-info{
+    font-family: Neue Machina;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #171717;
+    text-align: center;
+    
+
+
+
+}
+
+.cartas-boton{
+    margin: 0 auto;
+    font-family: Neue Machina;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 12px;
+    background: #C1D45D;
+    height: 48px;
+    width: 290px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+}
+
+@media all and (max-width:1000px){
+
+.projects{
+
+    min-height: 180vh;
+    margin-bottom: 100px;
+}
+
+.cohete{
+    width: 50%;
+}
+
+
+
+.cartas-boton{
+    max-width: 100%;
+}
+
+}
+
+@media all and (max-width:500px){
+
+
+    .cartas-boton{
+        max-width: 100%;
+    }
+}

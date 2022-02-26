@@ -1,0 +1,183 @@
+.contenedor{
+
+height: 125px;
+}
+
+.titulo-launchIDO{
+
+    font-family: Neue Machina;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 150%;
+    color: #171717;
+    margin-bottom: 30px;
+
+}
+
+.launchIDO-boton{
+
+    background:springgreen;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(143, 146, 161, 0.4);
+    font-family: Neue Machina;
+font-style: normal;
+font-weight: bold;
+font-size: 28px;
+line-height: 150%;
+text-align: center;
+color: #8F92A1;
+
+}
+
+.launchIDO-title{
+    font-family: Neue Machina;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    color: #171717;
+}
+
+.launchIDO-subtitle{
+    font-family: Neue Machina;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 150%;
+    text-align: center;
+    color: #8F92A1;
+    
+
+
+}
+
+.launchIDO-circle{
+    width: 16px;
+    height: 16px;
+/* box-shadow: 5px 5px 22px rgba(193, 212, 93, 0.8); */
+border-radius: 50%;
+border: 1px solid rgba(143, 146, 161, 0.4);
+box-sizing: border-box;
+/* margin-left: ; */
+
+
+}
+
+.launchIDO-barra{
+    border: 1px solid rgba(143, 146, 161, 0.4);
+    width: 90px;
+height: 0px;
+
+}
+
+.box-barra-circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 55px;
+
+}
+.box-information{
+margin: 0 ;
+padding: 0;
+
+}
+
+
+
+
+/* todo lo del formulario */
+
+.form-title{
+    font-family: Neue Machina;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #8F92A1;
+    margin-top: 40px;
+    
+
+}
+
+.input{
+border: .5px solid rgba(143, 146, 161, 0.4);
+box-sizing: border-box;
+border-radius: 12px;
+width: 90%;
+height: 40px;
+outline: none;
+margin-bottom: 16px;
+
+}
+.input::placeholder{
+    font-family: Neue Machina;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: rgba(143, 146, 161, 0.7);
+    margin: 40px;
+}
+
+
+.input-two{
+    box-sizing: border-box;
+    border-radius: 12px;
+    width: 90%;
+    height: 40px;
+    background: rgba(243, 186, 47, 0.1);
+backdrop-filter: blur(240px);
+
+border-radius: 12px;
+outline: none;
+border: none;
+}
+
+.input-two::placeholder{
+
+    font-family: Neue Machina;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 22px;
+color: #171717;
+margin-left: 30px;
+}
+
+
+
+/* el boton */
+
+.boton{
+    margin:0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+.boton-1{
+
+    background: #C1D45D;
+backdrop-filter: blur(240px);
+border-radius: 12px;
+width: 207px;
+height: 40px;
+margin: 0 auto;
+margin-top: 24px;
+display: flex;
+display: flex;
+    align-items: center;
+justify-content: center; 
+color: #FFFFFF;
+margin: 0 ;
+
+}
+

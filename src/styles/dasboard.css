@@ -1,0 +1,439 @@
+.Dasboard{
+
+    width: calc(100% - 250px)
+}
+
+.dasboard-title{
+    font-family: Neue Machina;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 150%;
+    color: #171717;
+    
+
+}
+
+.cart-subtitle{
+ 
+    font-family: Neue Machina;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    
+    color: #171717;
+    
+    opacity: 0.75
+
+}
+
+
+.imagen-flecha img{
+
+margin-left: 60px;
+
+
+}
+
+
+.segundaImagenflecha{
+    margin-left: 480px;
+}
+
+.segundacartaFlecha{
+
+margin-left: 150px;
+
+}
+
+
+
+
+.carta-subtitulo{
+    font-family: Neue Machina;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    
+    color: #171717;
+    
+    opacity: 0.75
+
+}
+
+
+
+
+
+
+/* parte de abajo del dasboard */
+
+
+
+.cartas-abajo{
+display: flex;
+justify-content: space-between;
+}
+
+.cartasAbajo-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Neue Machina;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 150%;
+
+    color: #171717;
+    margin-left: 24px;
+    
+
+}
+
+.cartasAbajo-boton{
+    width: 237px;
+    height: 42px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    
+    background: rgba(0, 190, 145, 0.2);
+    border-radius: 12px;
+    
+    font-family: Neue Machina;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 150%;
+ 
+    
+    text-align: right;
+ 
+    color: #00BE91;
+    margin-right: 24px;
+    
+}
+
+.balance{
+    font-family: Neue Machina;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 150%;
+    margin-left: 24px;
+    color: #8F92A1;
+
+
+}
+.valores{
+    font-family: Neue Machina;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 150%;
+margin-left: 24px;
+margin-top: 16px;
+
+color: #171717;
+
+}
+
+
+.cart-PartI{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 23px;
+}
+
+.cart-IpartBoton{
+    width: 106px;
+height: 34px;
+
+background: rgba(243, 186, 47, 0.1);
+backdrop-filter: blur(240px);
+border-radius: 12px;
+    font-family: Neue Machina;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 150%;
+text-align: right;
+color: #F3BA2F;
+margin: 0 auto;
+display: flex;
+align-items: center;
+justify-content: space-around;
+cursor: pointer;
+}
+
+/* SEGUNDA PARTE */
+.cartPartII-title{
+    font-family: Neue Machina;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 150%;   
+    color: #171717;
+    
+
+}
+.cartParteII-valores{
+    font-family: Neue Machina;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 150%;
+color: #8F92A1;
+
+}
+
+.cartPartII-I{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cartPartII-values{
+    font-family: Neue Machina;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 150%;
+    color: #171717;
+    
+
+}
+.cartPartII-valores{
+    font-family: Neue Machina;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 150%;
+color: #C1D45D;
+}
+
+
+
+.box{
+display: flex;
+justify-content: space-between;
+margin: 0 auto;
+
+}
+
+
+.box-title{
+    font-family: Neue Machina;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 150%;
+color: #171717;
+
+
+}
+
+.box-values{
+    font-family: Neue Machina;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 150%;
+
+
+text-align: right;
+
+
+color: #8F92A1;
+}
+
+.progreso{
+    height: 6px ;
+    width: 320px;
+    margin: 0 auto;
+    
+background: #F5F5F5;
+border-radius: 40px;
+}
+
+.tamano-progreso{
+height: 6px ;
+width: 25px ;
+background: #C1D45D;
+border-radius: 40px;
+
+
+}
+
+.caja{
+    font-family: Neue Machina;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 150%;
+display: flex;
+justify-content: space-between;
+    
+    color: #8F92A1;
+    
+
+}
+
+.segundaCaja{
+display: flex;
+justify-content: space-between;
+}
+
+.segundaCaja-values{
+    font-family: Neue Machina;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 150%;
+    color: #171717;
+    
+
+}
+
+.segundaCaja-valores{
+    font-family: Neue Machina;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: right;
+    color: #8F92A1;
+}
+
+
+
+.terceraCaja{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.terceraCaja-values{
+    font-family: Neue Machina;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 150%;
+
+color: #171717;
+
+}
+
+.terceraCaja-valores{
+    font-family: Neue Machina;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: right;
+
+    
+    color: #8F92A1;
+
+}
+
+.cartaParteIII{
+display: flex;
+justify-content: space-between;
+
+}
+.cartaParteIII-title{
+    font-family: Neue Machina;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 150%;
+    color: #8F92A1;
+
+}
+.cartaParteIII-titulo{
+    font-family: Neue Machina;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 150%;
+    text-align: center;
+    color: #FF5B4A;
+
+
+}
+.cartaParteIII-boton{
+    background: rgba(220, 243, 105, 0.174);
+    backdrop-filter: blur(240px);
+    border-radius: 12px;
+    width: 110px;
+    height: 50px;
+    font-family: Neue Machina;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 150%;
+text-align: right;
+color: #C1C35D;
+display: flex;
+align-items: center;
+justify-content: center;
+cursor: pointer;
+
+}
+
+@media all and (max-width:1000px){
+
+
+    .one-Cart{
+        display: block;
+        flex-direction: column;
+
+    }
+
+.carta {
+
+    display: block;
+flex-direction: column;
+    
+}
+
+.segundaCarta{
+    display: block;
+    flex-direction: column;
+        
+}
+
+.segundaCarta{
+    display: block;
+    flex-direction: column;
+        
+
+}
+
+.Cartas{
+    display: block;
+    flex-direction: column;
+        
+
+}
+.grafica img{
+max-width: 100%;
+
+}
+
+.carta-subtitulo img{
+    margin: 0;
+
+
+}
+
+.segundaImagenflecha{
+
+    max-width: 30%;
+    display: flex;
+    justify-content: none;
+
+}
+} 

@@ -1,0 +1,15 @@
+.pantalla span{
+height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media all and (max-width:900px){
+
+    .pantalla-imagen img{
+width: 100%;
+    }
+
+
+}

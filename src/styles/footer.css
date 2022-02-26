@@ -1,0 +1,26 @@
+.footer{
+    margin-top: 190px;
+height: 140px;
+
+}
+
+.footer-imagenes{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.footer-info{
+font-family: Neue Machina;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 180%;
+
+color: #8F92A1;
+opacity: 2;
+margin-top: 26px;
+margin-left: 25px;
+margin-right: 25px;
+
+}

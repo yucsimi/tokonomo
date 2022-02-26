@@ -1,0 +1,219 @@
+.lauchTWO-title{
+    font-family: Neue Machina;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #8F92A1;
+     margin-top: 20px; 
+    
+    
+
+}
+.lauchTWO-title-1{
+    font-family: Neue Machina;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #8F92A1;
+    margin-left: 30px;
+    margin-top: 20px; 
+
+}
+
+.formulario{
+
+    border: 1px solid rgba(143, 146, 161, 0.4);
+    box-sizing: border-box;
+    border-radius: 12px;
+    width: 83%;
+outline: none;
+height: 40px;
+
+}
+
+.formulario::placeholder{
+
+    font-family: Neue Machina;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: rgba(143, 146, 161, 0.7);
+}
+
+
+.form-1{
+    border: 1px solid rgba(143, 146, 161, 0.4);
+    box-sizing: border-box;
+    border-radius: 12px;
+width: 400px;
+outline: none;
+height: 40px;
+
+
+}
+.form-1::placeholder{
+    font-family: Neue Machina;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 22px;
+color: rgba(143, 146, 161, 0.7);
+
+}
+.form-1-title{
+    font-family: Neue Machina;
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 22px;
+color: #457CFF;
+margin-bottom: 24px;
+
+
+}
+
+
+.form-2{
+    border: 1px solid rgba(143, 146, 161, 0.4);
+    box-sizing: border-box;
+    border-radius: 12px;
+    width: 400px;
+height: 40px;
+outline: none;
+margin-left: 30px;
+}
+
+
+
+.form-2::placeholder{
+    font-family: Neue Machina;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 22px;
+color: rgba(143, 146, 161, 0.7);
+}
+
+/* parte dos los checkbox */
+
+.botones-title{
+    font-family: Neue Machina;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+color: #8F92A1;
+
+}
+.title-checbox{
+    font-family: Neue Machina;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 22px;
+
+color: #171717;
+}
+
+.botones-subtitle{
+    font-family: Neue Machina;
+font-style: normal;
+font-weight: 500;
+font-size: 10px;
+line-height: 22px;
+color: #457CFF;
+
+}
+
+
+
+.input-select{
+    width: 80%;
+height: 70px;
+border-radius: 12px;
+outline: none;
+
+
+
+}
+
+
+
+.Primer-Select{
+    width: 37.5%;
+    margin-right: 20px;
+
+}
+.Segundo-Select{
+    width: 37.5%;
+    margin-left: 60px;
+
+}
+.Tercer-Select{
+    width: 80%;
+    margin-top: 20px;
+}
+
+.boton-kyc{
+    background: rgba(55, 114, 255, 0.04);
+border: 1.5px solid #3772FF;
+box-sizing: border-box;
+backdrop-filter: blur(240px);
+border-radius: 12px;
+width: 220px;
+height: 50px;
+font-family: Neue Machina;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 24px;
+color: #3772FF;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+.boton-verification{
+
+    background: rgba(55, 114, 255, 0.04);
+    border: 1.5px solid #3772FF;
+    box-sizing: border-box;
+    backdrop-filter: blur(240px);
+    border-radius: 12px;
+    width: 240px;
+    height: 50px;
+    font-family: Neue Machina;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3772FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25px;
+    
+    
+}
+.ultimo-boton{
+    
+background: #F8F8F8;
+backdrop-filter: blur(430px);
+border-radius: 16px;
+width: 400px;
+height: 44px;
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 0 auto;
+
+font-family: Neue Machina;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 22px;
+color: #8F92A1;
+}

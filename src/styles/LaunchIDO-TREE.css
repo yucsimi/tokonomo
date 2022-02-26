@@ -1,0 +1,18 @@
+.formulario-launchidotree{
+
+    border: 1px solid rgba(143, 146, 161, 0.4);
+    box-sizing: border-box;
+    border-radius: 12px;
+    width: 83%;
+outline: none;
+height: 150px;
+padding: 0;
+margin: 0;
+}
+.formulario-launchidotree::placeholder{
+    font-family: Neue Machina;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(143, 146, 161, 0.7);
+}
