@@ -20,7 +20,7 @@ const Footer = () => {
 
 
             <div className='footer-imagenes'>
-                <span className=' mx-4'><img src={tokonomo} /></span>
+                <span className=' mx-4'><img alt='tokonomo' src={tokonomo} /></span>
 
                 <div className=''>
                     <span className='mx-3'><img alt='twitter' src={twitter} /></span>
